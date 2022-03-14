@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit";
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.all {
+    background-color: hsl(216, 50%, 16%);
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+}
+
+.written {
+    font-size: 14px;
+}
+.crypto {
+    color: hsl(178, 100%, 50%);
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+}
+
+.line {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.avatar {
+    width: 30px;
+    height: auto;
+    border: white;
+}
+
+.name {
+    padding-top: 6px;
+    color:hsl(215, 51%, 70%);
+}
+
+span {
+    color: white;
+    padding-left: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+}

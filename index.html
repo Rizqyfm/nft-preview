@@ -5,28 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
   <title>NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="all m-10 rounded-2xl">
+      <div class="container flex flex-col p-7">
+        <img class="image rounded-2xl" src="images/image-equilibrium.jpg" alt="Equilibrium">
 
-  <h1 class="text-2xl">Equilibrium #3429</h1>
+        <h1 class="headline text-2xl font-bold text-white my-4">Equilibrium #3429</h1>
 
-  Our Equilibrium collection promotes balance and calm.
+        <h2 class="description written text-1xl mb-4">Our Equilibrium collection promotes balance and calm.</h2>
+        
+        <div class="offer flex flex-row justify-between">
+            <div class="price flex flex-row">
+              <img src="images/icon-ethereum.svg" alt="">
+              <h3 class="crypto ml-2 written">0.041 ETH</h3>
+            </div>
+            <div class="counting flex flex-row">
+              <img class="mr-2" src="images/icon-clock.svg" alt="">
+              <h3 class="days written">3 days left</h3>
+          </div>
+        </div>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+        <hr class="line my-4">
+      
+        <div class="creator flex flex-row">
+          <img class="avatar" src="images/image-avatar.png" alt="Jules">
+          <h4 class="name flex content-center written ml-4">Creation of <span> Jules Wyvern</span> </h4>
+        </div>
+  </div>
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div> -->
   </div>
 </body>
 </html>
