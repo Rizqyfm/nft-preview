@@ -12,10 +12,14 @@
   <title>NFT preview card component</title>
 </head>
 <body>
-  <div class="all m-10 rounded-2xl sm:w-1/4">
+  <div class="all m-10 rounded-2xl md:w-1/4">
     <div class="container flex flex-col p-7">
-      <img class="image rounded-2xl" src="images/image-equilibrium.jpg" alt="Equilibrium">
-      <img class="view" src="images/icon-view.svg" alt="" style="display:none">
+      <div class="image-container">
+        <img class="image rounded-2xl" src="images/image-equilibrium.jpg" alt="Equilibrium">
+        <div class="overlay">
+          <img class="view" src="images/icon-view.svg" alt="view">
+      </div>
+    </div>
 
       <h1 class="headline text-2xl font-bold text-white my-4">Equilibrium #3429</h1>
 
@@ -38,11 +42,7 @@
         <img class="avatar" src="images/image-avatar.png" alt="Jules">
         <h4 class="name flex content-center written ml-4">Creation of <span> Jules Wyvern</span> </h4>
       </div>
-</div>
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+  </div>
 </div>
 </body>
 </html>
